@@ -74,12 +74,9 @@ def add_student():
     goal.close()
     source = open("local.py", "a")
     source.write("\n")
-    source.write(" ")
-    source.write("'")
+    source.write(" '")
     source.write(name)
-    source.write("'")
-    source.write(",")
-    source.write("]")
+    source.write("', ]")
     source.close()
 
 
